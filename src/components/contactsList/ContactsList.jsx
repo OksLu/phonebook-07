@@ -1,10 +1,5 @@
 import { Contact } from 'components/contactEl/Contact';
-import {
-  filteredContacts,
-  getError,
-  getFilter,
-  getIsLoading,
-} from 'redux/selectors';
+import { filteredContacts, getError, getIsLoading } from 'redux/selectors';
 import css from './ContactsList.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
